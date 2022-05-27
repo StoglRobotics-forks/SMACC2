@@ -6,7 +6,7 @@ repositories:
   husky:
     type: git
     url: https://github.com/StoglRobotics-forks/husky.git
-    version: humble-devel-updates
+    version: fixup-missing-using
 
   # Manipulators
   ur_msgs:
@@ -21,12 +21,35 @@ repositories:
     type: git
     url: https://github.com/UniversalRobots/Universal_Robots_ROS2_Description.git
     version: ros2
+  robotiq_85_gripper:
+    type: git
+    url: https://github.com/StoglRobotics-forks/robotiq_85_gripper.git
+    version: rolling-ros2-control-simulation
 
+  Universal_Robots_Client_Library:
+    type: git
+    url: https://github.com/UniversalRobots/Universal_Robots_Client_Library.git
+    version: master
+
+# simulation
+  Universal_Robots_ROS2_Gazebo_Simulation:
+    type: git
+    url: https://github.com/UniversalRobots/Universal_Robots_ROS2_Gazebo_Simulation.git
+    version: ros2
+  Universal_Robots_ROS2_Ignition_Simulation:
+    type: git
+    url: https://github.com/UniversalRobots/Universal_Robots_ROS2_Ignition_Simulation.git
+    version: ros2
+  gazebo_ros2_control:
+    type: git
+    url: https://github.com/ros-simulation/gazebo_ros2_control.git
+    version: using-under-namespace
+    
   # ros2_control backports
   ros2_control:
     type: git
     url: https://github.com/ros-controls/ros2_control.git
-    version: master
+    version: main
   ros2_controllers:
     type: git
     url: https://github.com/StoglRobotics-forks/ros2_controllers.git
